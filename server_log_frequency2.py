@@ -5,8 +5,8 @@ from collections import defaultdict
 # Получаем путь к текущей директории скрипта
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
-# Создаем абсолютный путь к файлу 'log.txt' в родительской директории
-file_path = os.path.join(os.path.dirname(current_dir), 'log.txt')
+# Создаем абсолютный путь к файлу 'log.txt' в той же директории, что и скрипт
+file_path = os.path.join(current_dir, 'log.txt')
 
 ip_addresses = []
 with open(file_path, 'r') as file:
