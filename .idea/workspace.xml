@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c6125b2f-0cf5-4821-8303-c2e3673fc65d" name="Changes" comment="" />
+    <list default="true" id="c6125b2f-0cf5-4821-8303-c2e3673fc65d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ip_frequency.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ip_frequency.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server_log_frequency2.py" beforeDir="false" afterPath="$PROJECT_DIR$/server_log_frequency2.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +44,7 @@
   "keyToString": {
     "Python.server_log_frequency2.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "developer",
+    "git-widget-placeholder": "hotfix",
     "last_opened_file_path": "C:/Users/user/Desktop/Программы/DZ/vl.elsukov",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
