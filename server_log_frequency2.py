@@ -5,13 +5,12 @@ ip_addresses = []
 with open('log.txt', 'r') as file:
     for line in file:
         ips = re.findall(r'\b(?:\d{1,3}\.){3}\d{1,3}\b', line)
-        for ip in ips:
-            ip_addresses.append(ip)
+        ip_addresses.extend(ips)
 
-# Подсчет частоты упоминаний IP-адресов
 ip_frequency = defaultdict(int)
 for ip in ip_addresses:
     ip_frequency[ip] += 1
+
 
 # Сортировка IP-адресов по убыванию частоты упоминаний и IP-адреса по убыванию
 sorted_ips = sorted(ip_frequency.items(), key=lambda x: (-x[1], x[0]))
